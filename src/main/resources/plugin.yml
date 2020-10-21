@@ -1,0 +1,26 @@
+main: de.carldressler.iq.IQPlugin
+name: iQ
+version: 1.0.0
+api-version: 1.16
+
+commands:
+  mute:
+    aliases: unmute
+    description: Mute a specific player
+    usage: "Usage: /mute <player> (<reason>)"
+  muteall:
+    aliases: globalmute
+    description: Mute the entire chat
+    usage: "Usage: /muteall (<reason>) OR /muteall except player <player>"
+  time:
+    aliases: [tmorning, tday, tnoon, tafternoon, tevening, tsunset, tnight, tmidnight, tsunrise, morning, day, noon, afternoon, evening, sunset, night, midnight, sunrise, d, n]
+    description: Set the time of your current world
+    usage: "Usage: /time [morning|day|noon|afternoon|evening|sunset|night|midnight|sunrise|<ticks>] OR /t[morning|day|noon|afternoon|evening|sunset|night|midnight|sunrise] OR /[morning|day|noon|afternoon|evening|sunset|night|midnight|sunrise] OR /[d|n]"
+  rain:
+    aliases: storm
+    description: Toggle/Set downfall
+    usage: "Usage: /rain ([on|off)) (<ticks>) OR /toggledownfall <- legacy ;) Tip: You can use /tickcalculator <ticks>"
+  aboutiq:
+    aliases: aboutiQ
+    description: Shows information about iQ's developer
+    usage: "Usage: /aboutiQ"

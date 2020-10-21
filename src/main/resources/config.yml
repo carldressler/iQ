@@ -1,0 +1,22 @@
+# This is the iQ configuration file. Settings you make here personalize your experience with iQ.
+# You should keep these things in mind when filling out this file:
+#   - NEVER use tabs ↹, ONLY spaces
+#   - If you want to use a colon in a text you have to surround it with quotation marks
+
+# If the configuration is incorrect, you will be informed about it in the console as well as in the ingame chat.
+# In case the configuration is incorrect, the standard values for the corrupt entry/entries will be used.
+
+# Tip: To reproduce the symbolic "[iQ]", just write it in the strings using color code &7 for the brackets and the following:
+#   - success: &a for the "iQ"
+#   - warning or hint: &e for the "iQ"
+#   - error: &c for the "iQ"
+
+
+# If you want to use military time (00:00 - 23:59), set "24h". If you want to use the 12 hour format set "12h".
+# Valid values: 12h, 24h | Standard: 24h
+time-format: 12h
+
+
+global-join-message: ""
+global-leave-message: ""
+private-join-message: ""
